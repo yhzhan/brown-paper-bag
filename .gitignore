@@ -10,3 +10,32 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# ------------- WUXTRY WUXTRY! ------------- #
+# Compiled Source #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Text Backup Files #
+*.s[a-w][a-z]
+*~
+\#*\#
+.\#*
+
+# OS X Files #
+.DS_Store
+._*
+_*
+.Spotlight*
+.Trashes
+
+# Windows Files #
+Thumbs.db
+ehthumbs.db
+
+# Filenames with special characters
+**/*[\\/\:;*?!'"<>|$º•¶§∞¢£]*
