@@ -128,6 +128,9 @@ public class LList implements List { //your List interface must be in same dir
 	    tmp.setNext( tmp.getNext().getNext() );
 	}
 
+	//decrement size attribute
+	_size--;
+
 	return retVal;
     }
 
