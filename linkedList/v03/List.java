@@ -3,22 +3,22 @@
  * Specifies actions a List must be able to perform.
  *****************************************************/
 
-public interface List { 
+public interface List<T> { 
 
-    //add node to list, containing input String as its data
-    public boolean add( String x ); 
+    //add node to list, containing input T as its data
+    public boolean add( T x ); 
 
     //inserts a node containing s at position I
-    public void add( int i, String s ); 
+    public void add( int i, T s ); 
 
     //removes the node at position i and returns its cargo
-    public String remove( int i );
+    public T remove( int i );
 
     //return data in element at position i
-    public String get( int i ); 
+    public T get( int i ); 
 
     //overwrite data in element at position i
-    public String set( int i, String x ); 
+    public T set( int i, T x ); 
 
     //return length of list
     public int size(); 

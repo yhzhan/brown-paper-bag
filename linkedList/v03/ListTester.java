@@ -8,7 +8,7 @@ public class ListTester {
 
     public static void main( String[] args ) {
 
-	List wu = new LList();
+	List wu = new LList<String>();
 
 	System.out.println(wu);
 	wu.add("RZA");
