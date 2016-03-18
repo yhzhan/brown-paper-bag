@@ -216,6 +216,12 @@ public class LList<T> implements List<T> { //your List.java must be in same dir
     
     //main method for testing
     public static void main( String[] args ) {
+        List nList=new LList();
+        Object p=new Object();
+        nList.add("hello");
+        nList.add(58);
+        nList.add(p);
+        System.out.println(nList);
     }
     
 }//end class LList
