@@ -1,8 +1,8 @@
 /*****************************************************
  * Wish for Success - Elias Milborn, Henry Zhang
  * APCS2 pd09
- * HW #15: Generically Speaking...
- * 2016--03-17
+ * HW #16: Generational improvement
+ * 2016--03-21
  *
  * class LList
  * Implements a linked list of DLLNodes, each containing String data
@@ -40,7 +40,7 @@ public class LList<T> implements List<T> { //your List.java must be in same dir
         else if ( index == size() )
             addLast( newVal );
         
-        DLLNode<T> newNode = new DLLNode( newVal, null, null );
+        DLLNode<T> newNode = new DLLNode<T>( newVal, null, null );
         
         //if index==0, insert node before head node
         if ( index == 0 )
